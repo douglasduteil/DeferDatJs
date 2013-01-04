@@ -1,5 +1,7 @@
 # DeferDatJS
 
+[![Build Status](https://travis-ci.org/douglasduteil/DeferDatJs.png?branch=master)](https://travis-ci.org/douglasduteil/DeferDatJs)
+
 Conditional resource loader for web browsers.
 
 # About

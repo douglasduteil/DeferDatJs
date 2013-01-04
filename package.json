@@ -13,6 +13,10 @@
     },
     "dependencies": {},
     "devDependencies": {
+        "grunt": "~0.3.17",
         "grunt-coffee": "*"
+    },
+    "scripts": {
+        "test": "grunt travis --verbose"
     }
 }
