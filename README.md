@@ -84,4 +84,5 @@ Here is a minified version :
     ('js/deferDat.js?debug,load=load.js', 'defer-script');
 </script>
 ````
+[Demo](http://douglasduteil.github.com/DeferDatJs/sample/async.html)
 
