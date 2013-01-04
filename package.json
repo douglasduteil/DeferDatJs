@@ -1,0 +1,18 @@
+{
+    "author": "https://github.com/douglasduteil/DeferDatJs/graphs/contributors",
+    "name": "defer-dat-js",
+    "description": "DeferDatJS - Conditional resource loader for web browsers.",
+    "version": "0.0.01",
+    "homepage": "https://github.com/douglasduteil/DeferDatJs",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/douglasduteil/DeferDatJs.git"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "grunt-coffee": "*"
+    }
+}

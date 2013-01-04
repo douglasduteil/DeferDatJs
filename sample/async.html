@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Defer Dat JS - Asynchronous</title>
+    <link rel="stylesheet" href="lib/sss.css" type="text/css">
+</head>
+<body>
+<figure id="loader"><figcaption></figcaption></figure>
+<script type="text/javascript">
+    (function(d,b){var c=document;c.getElementsByTagName("head")[0].appendChild(function(){var a=c.createElement("script");void 0!=b&&a.setAttribute("id",b);a.setAttribute("type","text/javascript");a.setAttribute("src",d);a.setAttribute("async","true");return a}())})
+    ('../build/deferDat.js?debug,load=loader.js', 'defer-script');
+</script>
+</body>
+</html>

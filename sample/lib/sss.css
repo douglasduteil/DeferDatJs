@@ -1,0 +1,10 @@
+
+body{
+    background : #000;
+    color : #eee;
+}
+
+#loader{
+    margin : 0 auto;
+    width: 120px;
+}

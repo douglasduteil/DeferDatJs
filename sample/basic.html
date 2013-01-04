@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Defer Dat JS - Basic</title>
+</head>
+<body>
+
+<script  id="defer-script" type="text/javascript" src="../build/deferDat.js?debug"></script>
+<script type="text/javascript">
+    deferDat
+        .load('lib/jquery.min.js')
+        .success(function(){
+            console.log("Gat jQuery :)")
+        })
+        .load([
+            'script-fail.min.js'
+            , 'oneBigScript.js'
+        ])
+        .fail(function(n){
+          console.log('nobody cares'); n();
+        })
+        .happyEnd(function() {
+            console.log("Done :)")
+        })
+</script>
+</body>
+</html>
