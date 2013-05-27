@@ -226,5 +226,6 @@
   )()
   
   w.deferDat = deferDat
+  return
 
 ) window, document 
