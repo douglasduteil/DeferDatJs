@@ -13,7 +13,7 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "grunt": "~0.3.17",
+        "grunt": "*",
         "grunt-coffee": "*"
     },
     "scripts": {
